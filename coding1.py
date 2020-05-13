@@ -159,4 +159,5 @@ if __name__ == '__main__':
     # print("\n\n")
     # print_table(["and", ["or","p1","p2"], ["and",["not","p1"],["not","p2"]]], 2)
     # print("\n\n")
-    print_table(["not",["if", ["if","p1","false"], ["not","p1"]]  ], 2)
+    # print_table(["not",["if", ["if","p1","false"], ["not","p1"]]  ], 2)
+    print_table(["xor", ["xor","p1","p2"],  ["xor","p3","p4"]] ,4) 
